@@ -78,13 +78,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Koncle">
-<meta property="og:url" content="http://koncle.github.io/index.html">
+<meta name="description" content="HelloImage test Math test$E = mc^2$ $$\begin{aligned}E = mc^2\end{aligned}$$ ##">
+<meta property="og:type" content="article">
+<meta property="og:title" content="example">
+<meta property="og:url" content="http://koncle.github.io/2019/01/03/example/index.html">
 <meta property="og:site_name" content="Koncle">
+<meta property="og:description" content="HelloImage test Math test$E = mc^2$ $$\begin{aligned}E = mc^2\end{aligned}$$ ##">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://koncle.github.io/2019/01/03/example/img.png">
+<meta property="og:updated_time" content="2019-01-03T09:54:14.353Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Koncle">
+<meta name="twitter:title" content="example">
+<meta name="twitter:description" content="HelloImage test Math test$E = mc^2$ $$\begin{aligned}E = mc^2\end{aligned}$$ ##">
+<meta name="twitter:image" content="http://koncle.github.io/2019/01/03/example/img.png">
 
 
 
@@ -114,7 +120,7 @@
 
 
 
-  <link rel="canonical" href="http://koncle.github.io/">
+  <link rel="canonical" href="http://koncle.github.io/2019/01/03/example/">
 
 
 
@@ -218,7 +224,7 @@
 </script>
 
 
-  <title>Koncle</title>
+  <title>example | Koncle</title>
   
 
 
@@ -237,8 +243,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -403,9 +408,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -435,9 +440,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/01/03/example/" itemprop="url">example</a></h1>
+          <h1 class="post-title" itemprop="name headline">example</h1>
         
 
         <div class="post-meta">
@@ -463,6 +466,16 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/01/03/example/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count gitment-comments-count" data-xid="/2019/01/03/example/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -487,15 +500,11 @@
       
 
       
-        
-          
-            <h1 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h1><h2 id="Image-test"><a href="#Image-test" class="headerlink" title="Image test"></a>Image test</h2><p><img src="/2019/01/03/example/img.png" alt="img"></p>
+        <h1 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h1><h2 id="Image-test"><a href="#Image-test" class="headerlink" title="Image test"></a>Image test</h2><p><img src="/2019/01/03/example/img.png" alt="img"></p>
 <h2 id="Math-test"><a href="#Math-test" class="headerlink" title="Math test"></a>Math test</h2><p>$E = mc^2$</p>
 <p>$$\begin{aligned}<br>E = mc^2<br>\end{aligned}$$</p>
 <p>## </p>
 
-          
-        
       
     </div>
     
@@ -512,12 +521,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -527,10 +536,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -538,6 +548,52 @@
 
 
           
+
+  
+  <!--
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
+      -->
+    <div onclick="showGitment()" id="gitment_title" class="gitment_title">显示 Gitment 评论</div>
+    <div id="container" style="display:none"></div>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+    <script>
+    const myTheme = {
+      render(state, instance) {
+        const container = document.createElement('div');
+        container.lang = "en-US";
+        container.className = 'gitment-container gitment-root-container';
+        container.appendChild(instance.renderHeader(state, instance));
+        container.appendChild(instance.renderEditor(state, instance));
+        container.appendChild(instance.renderComments(state, instance));
+        container.appendChild(instance.renderFooter(state, instance));
+        return container;
+      }
+    }
+    function showGitment() {
+      $("#gitment_title").attr("style", "display:none");
+      $("#container").attr("style", "").addClass("gitment_container");
+      var gitment = new Gitment({
+        id: window.location.pathname,
+        theme: myTheme,
+        owner: '',
+        repo: '',
+        oauth: {
+          client_id: '7e273f1035fffa880eda',
+          client_secret: 'e37b8eec5c00f8f2380b4a6263125bbc2ec066fc'
+        }
+      });
+      gitment.render('container');
+    }
+    </script>
+
+  
+
+
 
         </div>
         
@@ -558,8 +614,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -601,6 +666,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello"><span class="nav-number">1.</span> <span class="nav-text">Hello</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Image-test"><span class="nav-number">1.1.</span> <span class="nav-text">Image test</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Math-test"><span class="nav-number">1.2.</span> <span class="nav-text">Math test</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -744,6 +825,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -795,6 +880,30 @@
       </style>
     
 
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'koncle',
+            repo: 'https://github.com/koncle/blog_comments',
+            
+            lang: "zh-Hans" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: 'e37b8eec5c00f8f2380b4a6263125bbc2ec066fc',
+            
+                client_id: '7e273f1035fffa880eda'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
     
 
 
