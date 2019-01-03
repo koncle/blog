@@ -89,7 +89,7 @@
 <meta property="og:description" content="Hello, My first blog找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个整">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://koncle.github.io/2019/01/03/example/img.png">
-<meta property="og:updated_time" content="2019-01-03T13:40:21.403Z">
+<meta property="og:updated_time" content="2019-01-03T13:48:46.452Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My First Blog">
 <meta name="twitter:description" content="Hello, My first blog找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个整">
@@ -482,9 +482,11 @@ Pace.on('done', function(){
       
         <h1 id="Hello-My-first-blog"><a href="#Hello-My-first-blog" class="headerlink" title="Hello, My first blog"></a>Hello, My first blog</h1><p>找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个整理吧。</p>
 <h2 id="Image-test"><a href="#Image-test" class="headerlink" title="Image test"></a>Image test</h2><p><img src="/2019/01/03/example/img.png" alt="img"></p>
-<h2 id="Math-test"><a href="#Math-test" class="headerlink" title="Math test"></a>Math test</h2><p>$E = mc^2$</p>
-<p>然而显示出来的效果是这样的：</p>
-<p>$$\begin{aligned}<br>E &amp;= mc^2 \ \<br>a &amp;= \int_{-1}^{1}x^2<br>\end{aligned}<br>$$</p>
+<h2 id="Math-test"><a href="#Math-test" class="headerlink" title="Math test"></a>Math test</h2><p>测试一下行内Math，$E = mc^2$</p>
+<p>然而一开始多行的MathJs显示出来的效果是这样的：</p>
+<p>$$\begin{aligned}<br>E &amp;= mc^2 \\<br>a &amp;= \int_{-1}^{1}x^2<br>\end{aligned}$$</p>
+<p>源代码:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;aligned&#125;</span><br><span class="line">E &amp;= mc^2 \ \ </span><br><span class="line">a &amp;= \int_&#123;-1&#125;^&#123;1&#125;x^2</span><br><span class="line">\end&#123;aligned&#125;$$</span><br></pre></td></tr></table></figure>
 <p>查了下资料，原因是markdown将<code>\\</code>转义成了<code>\</code>，有三种可行的解决方案：</p>
 <ol>
 <li>直接输入 <code>\\\\</code></li>
