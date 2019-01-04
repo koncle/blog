@@ -87,17 +87,20 @@
 
 
 
+<meta name="description" content="Hello, My first blog找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个">
 <meta name="keywords" content="test">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My First Blog">
-<meta property="og:url" content="http://koncle.github.io/2019/01/03/example/index.html">
+<meta property="og:url" content="http://koncle.github.io/example">
 <meta property="og:site_name" content="Koncle">
+<meta property="og:description" content="Hello, My first blog找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://koncle.github.io/2019/01/03/example/img.png">
-<meta property="og:updated_time" content="2019-01-04T05:47:06.074Z">
+<meta property="og:image" content="http://koncle.github.io/example/img.png">
+<meta property="og:updated_time" content="2019-01-04T06:29:46.248Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="My First Blog">
-<meta name="twitter:image" content="http://koncle.github.io/2019/01/03/example/img.png">
+<meta name="twitter:description" content="Hello, My first blog找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个">
+<meta name="twitter:image" content="http://koncle.github.io/example/img.png">
 
 
 
@@ -127,7 +130,7 @@
 
 
 
-  <link rel="canonical" href="http://koncle.github.io/2019/01/03/example/">
+  <link rel="canonical" href="http://koncle.github.io/example">
 
 
 
@@ -138,7 +141,6 @@ Pace.on('done', function(){
   $('.headband').hide()
 })
 </script>
-
 
 <!-- password for page -->
 <script>
@@ -268,6 +270,16 @@ Pace.on('done', function(){
           </a>
         </li>
       
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>
+            
+            Sitemap
+          </a>
+        </li>
+      
 
       
         <li class="menu-item menu-item-search">
@@ -332,7 +344,7 @@ Pace.on('done', function(){
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://koncle.github.io/2019/01/03/example/">
+    <link itemprop="mainEntityOfPage" href="http://koncle.github.io/example">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Koncle">
@@ -379,7 +391,7 @@ Pace.on('done', function(){
 
           
           
-             <span id="/2019/01/03/example/" class="leancloud_visitors" data-flag-title="My First Blog">
+             <span id="/example" class="leancloud_visitors" data-flag-title="My First Blog">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -410,14 +422,14 @@ Pace.on('done', function(){
       
 
       
-        <p><img src="/2019/01/03/example/img.png" alt="img"></p>
-<a id="more"></a>
+        <p><img src="/example/img.png" alt="img"></p>
 <h1 id="Hello-My-first-blog"><a href="#Hello-My-first-blog" class="headerlink" title="Hello, My first blog"></a>Hello, My first blog</h1><p>找分布式系统复习资料的时候无意中发现了这个 Next 主题，哇，当时真的被惊艳到了，之前看到的各种奇怪的主题都花花绿绿，一点也没有高大上的感觉，而这种 Material Design 的主题真的深得我心，这才是我想要的主题，遂在考完试之后乘着闲暇(无心学习)之余，重新搭建一下自己的小博客，也准备以后看的论文什么的能够总结一下，发出来，也算是对自己知识的一个整理吧。</p>
-<h2 id="Math-test"><a href="#Math-test" class="headerlink" title="Math test"></a>Math test</h2><p>测试一下行内Math，$E = mc^2$</p>
+<a id="more"></a>
+<h2 id="LaTeX-测试"><a href="#LaTeX-测试" class="headerlink" title="$\LaTeX$ 测试"></a>$\LaTeX$ 测试</h2><p>测试一下行内Math，$E = mc^2$</p>
 <p>然而一开始多行的MathJs显示出来的效果是这样的：</p>
-<p>$$\begin{aligned}<br>E &amp;= mc^2 \ \<br>a &amp;= \int_{-1}^{1}x^2<br>\end{aligned}$$</p>
+<p>$$\begin{aligned}<br>E &amp;= mc^2 \ \<br>a &amp;= \int_{-1}^{1}x^2 dx<br>\end{aligned}$$</p>
 <p>源代码:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;aligned&#125;</span><br><span class="line">E &amp;= mc^2 \\ </span><br><span class="line">a &amp;= \int_&#123;-1&#125;^&#123;1&#125;x^2</span><br><span class="line">\end&#123;aligned&#125;$$</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$$\begin&#123;aligned&#125;</span><br><span class="line">E &amp;= mc^2 \\ </span><br><span class="line">a &amp;= \int_&#123;-1&#125;^&#123;1&#125;x^2 dx</span><br><span class="line">\end&#123;aligned&#125;$$</span><br></pre></td></tr></table></figure>
 <p>查了下资料，原因是markdown将<code>\\</code>转义成了<code>\</code>，有三种可行的解决方案：</p>
 <ol>
 <li>直接输入 <code>\\\\</code></li>
@@ -427,26 +439,26 @@ Pace.on('done', function(){
 <p>由于之前写 markdown 基本不会用到反斜杠，因此采用修改引擎的方法，在 <code>nodes_modules/marked/lib/marked.js</code> 中，修改：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 这个</span></span><br><span class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([\\`*&#123;&#125;\[\]()#+\-.!_&gt;])/</span>,</span><br><span class="line"><span class="comment">// 改为</span></span><br><span class="line"><span class="built_in">escape</span>: <span class="regexp">/^\\([`*&#123;&#125;\[\]()# +\-.!_&gt;])/</span>,</span><br><span class="line"></span><br><span class="line"><span class="comment">// 这个 </span></span><br><span class="line">em: <span class="regexp">/^\b_((?:[^_]|__)+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</span><br><span class="line"><span class="comment">//改为</span></span><br><span class="line">em:<span class="regexp">/^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span>,</span><br></pre></td></tr></table></figure>
 <p>改完之后的效果：</p>
-<p>$$\begin{aligned}<br>E &amp;= mc^2 \\<br>a &amp;= \int_{-1}^{1}x^2<br>\end{aligned}<br>$$</p>
-<h2 id="Comment"><a href="#Comment" class="headerlink" title="Comment"></a>Comment</h2><p>gitment好坑啊啊啊啊。一会 Error: Not Found, 换成 koncle.github.io 的repo，又登录不上去，心累。</p>
+<p>$$\begin{aligned}<br>E &amp;= mc^2 \\<br>a &amp;= \int_{-1}^{1}x^2 dx<br>\end{aligned}<br>$$</p>
+<h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><p>gitment好坑啊啊啊啊。一会 Error: Not Found, 换成 koncle.github.io 的repo，又登录不上去，心累。</p>
 <p><del>所以暂时就不做了吧。</del></p>
 <p>最后用了gitalk，和gitment类似的评论插件，gitalk还是很方便啊，至少没有奇奇怪怪的问题。</p>
-<h2 id="some-pits"><a href="#some-pits" class="headerlink" title="some pits"></a>some pits</h2><h3 id="Next主题支持"><a href="#Next主题支持" class="headerlink" title="Next主题支持"></a>Next主题支持</h3><p>next主题内的 <code>_config.yml</code> 内已经整合了很多的插件了，如pace,gitment等等，所以很多只需要在里面 <code>true</code>, <code>false</code> 一下就完事了。</p>
-<h3 id="进度条-Processing-bar"><a href="#进度条-Processing-bar" class="headerlink" title="进度条(Processing bar)"></a>进度条(Processing bar)</h3><p>根据参考的博客加了进度条，但是之后会一直留在那里很难受，看了加的js是<code>pace.js</code>，其有 <code>done</code> 事件，因此绑定一下该事件以在加载完成后隐藏进度条，在 <code>themes\next\layout\_partials\head\custom-head.swig</code>内加入以下代码：</p>
+<h2 id="Next主题支持"><a href="#Next主题支持" class="headerlink" title="Next主题支持"></a>Next主题支持</h2><p>next主题内的 <code>_config.yml</code> 内已经整合了很多的插件了，如pace,gitment等等，所以很多只需要在里面 <code>true</code>, <code>false</code> 一下就完事了。</p>
+<h2 id="进度条-Processing-bar"><a href="#进度条-Processing-bar" class="headerlink" title="进度条(Processing bar)"></a>进度条(Processing bar)</h2><p>根据参考的博客加了进度条（其实next主题已经支持了进度条显示），但是之后会一直留在那里很难受，看了一下用的是<code>pace.js</code>，其有 <code>done</code> 事件，绑定一下该事件以在加载完成后隐藏进度条，在 <code>themes\next\layout\_partials\head\custom-head.swig</code>内加入以下代码：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">Pace.on(<span class="string">'done'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  $(<span class="string">'.headband'</span>).hide()</span><br><span class="line">&#125;)</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="使用-tags-和-categories"><a href="#使用-tags-和-categories" class="headerlink" title="使用 tags 和 categories"></a>使用 tags 和 categories</h3><p>添加tags和categories时，需要使用如下命令:</p>
+<h2 id="使用-tags-和-categories"><a href="#使用-tags-和-categories" class="headerlink" title="使用 tags 和 categories"></a>使用 tags 和 categories</h2><p>添加tags和categories时，需要使用如下命令:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page tags</span><br></pre></td></tr></table></figure>
 <p>然后添加 <code>type: tags</code>，对categories同样如此。</p>
-<h3 id="文件压缩"><a href="#文件压缩" class="headerlink" title="文件压缩"></a>文件压缩</h3><p>使用 <code>gulp</code> 进行文件的压缩，但是最新版的 <code>gulp4</code> 换了接口，需要把修改原来的代码，使用 <code>gulp.series()</code> ，例：</p>
+<h2 id="文件压缩"><a href="#文件压缩" class="headerlink" title="文件压缩"></a>文件压缩</h2><p>使用 <code>gulp</code> 进行文件的压缩，但是最新版的 <code>gulp4</code> 换了接口，需要把修改原来的代码，使用 <code>gulp.series()</code> ，例：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">gulp.task(<span class="string">'minify-css'</span>, gulp.series(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> gulp.src(<span class="string">'./public/**/*.css'</span>)</span><br><span class="line">        .pipe(minifycss())</span><br><span class="line">        .pipe(gulp.dest(<span class="string">'./public'</span>));</span><br><span class="line">&#125;));</span><br></pre></td></tr></table></figure>
-<h3 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h3><p><code>live2d</code> 的配置需要在根目录下的 <code>_config.yml</code> 文件里配置，而不是主题文件。<br><a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">附每个model的图片</a></p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><ol>
-<li><p><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">Hexo搭建博客</a></p>
-</li>
-<li><p><a href="https://www.lizhechen.com/2017/03/08/Hexo%E4%B8%8EMathjax%E7%9A%84%E5%86%B2%E7%AA%81%E5%8F%8A%EF%BC%88%E9%83%A8%E5%88%86%EF%BC%89%E8%A7%A3%E5%86%B3/" target="_blank" rel="noopener">MathJs与Markdown冲突解决方案</a></p>
-</li>
-<li><p><a href="https://asdfv1929.github.io/2018/01/20/gitalk/" target="_blank" rel="noopener">使用Gitalk评论</a></p>
-</li>
+<h3 id="live2d"><a href="#live2d" class="headerlink" title="live2d"></a>live2d</h3><p><code>live2d</code> 的配置需要在根目录下的 <code>_config.yml</code> 文件里配置，而不是主题文件。为了方便，直接用 <code>$ npm i live2d-widget-model-nico</code> 本地安装了 model，</p>
+<p><a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">附每个model的图片</a></p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ol>
+<li><a href="https://thief.one/2017/03/03/Hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">Hexo搭建博客</a></li>
+<li><a href="https://www.lizhechen.com/2017/03/08/Hexo%E4%B8%8EMathjax%E7%9A%84%E5%86%B2%E7%AA%81%E5%8F%8A%EF%BC%88%E9%83%A8%E5%88%86%EF%BC%89%E8%A7%A3%E5%86%B3/" target="_blank" rel="noopener">MathJs与Markdown冲突解决方案</a></li>
+<li><a href="https://asdfv1929.github.io/2018/01/20/gitalk/" target="_blank" rel="noopener">使用Gitalk评论</a></li>
+<li><a href="https://lfwen.site/2016/05/31/add-count-for-hexo-next/" target="_blank" rel="noopener">LeanCloud阅读统计</a></li>
+<li><a href="https://blog.paddings.cn/2016/08/16/blog/Hexo-NexT-SEO/" target="_blank" rel="noopener">SEO</a></li>
 </ol>
 
       
@@ -604,7 +616,7 @@ Pace.on('done', function(){
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello-My-first-blog"><span class="nav-number">1.</span> <span class="nav-text">Hello, My first blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Math-test"><span class="nav-number">1.1.</span> <span class="nav-text">Math test</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Comment"><span class="nav-number">1.2.</span> <span class="nav-text">Comment</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#some-pits"><span class="nav-number">1.3.</span> <span class="nav-text">some pits</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Next主题支持"><span class="nav-number">1.3.1.</span> <span class="nav-text">Next主题支持</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#进度条-Processing-bar"><span class="nav-number">1.3.2.</span> <span class="nav-text">进度条(Processing bar)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用-tags-和-categories"><span class="nav-number">1.3.3.</span> <span class="nav-text">使用 tags 和 categories</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文件压缩"><span class="nav-number">1.3.4.</span> <span class="nav-text">文件压缩</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#live2d"><span class="nav-number">1.3.5.</span> <span class="nav-text">live2d</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reference"><span class="nav-number">1.4.</span> <span class="nav-text">Reference</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hello-My-first-blog"><span class="nav-number">1.</span> <span class="nav-text">Hello, My first blog</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#LaTeX-测试"><span class="nav-number">1.1.</span> <span class="nav-text">$\LaTeX$ 测试</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#评论"><span class="nav-number">1.2.</span> <span class="nav-text">评论</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Next主题支持"><span class="nav-number">1.3.</span> <span class="nav-text">Next主题支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进度条-Processing-bar"><span class="nav-number">1.4.</span> <span class="nav-text">进度条(Processing bar)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用-tags-和-categories"><span class="nav-number">1.5.</span> <span class="nav-text">使用 tags 和 categories</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件压缩"><span class="nav-number">1.6.</span> <span class="nav-text">文件压缩</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#live2d"><span class="nav-number">1.6.1.</span> <span class="nav-text">live2d</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">1.7.</span> <span class="nav-text">参考</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -1294,5 +1306,5 @@ Pace.on('done', function(){
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/nico.model.json"},"display":{"position":"left","hOffset":120,"width":100,"height":200},"mobile":{"show":false}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/nico.model.json"},"display":{"position":"left","hOffset":120,"vOffset":-80,"width":100,"height":200},"mobile":{"show":false}});</script></body>
 </html>
